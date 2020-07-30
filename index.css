@@ -100,5 +100,31 @@ a {
 
 .middleImage img {
     display:block;
+
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middleImage {
+    background-color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    /*
+    header {
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+    }
+
+    header nav {
+        padding: .6rem .8rem;
+        font-size: 1rem;
+        display: block;
+    }*/
+
+    .middleImage img {
+        margin: 0;
+    }
 }

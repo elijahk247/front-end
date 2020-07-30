@@ -140,3 +140,15 @@ a {
     max-width: 40%;
     margin: 0 5%;
 }
+
+@media (max-width: 800px) {
+    .info {
+        flex-direction: column;
+    }
+
+    .info div {
+        max-width: 90%;
+        padding: 5% 0;
+        text-align: center;
+    }
+}
