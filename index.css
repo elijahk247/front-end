@@ -110,7 +110,23 @@ a {
     background-color: black;
 }
 
-@media only screen and (max-width: 1000px) {
+label {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+footer {
+    padding: 5%;
+
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+
+@media only screen and (max-width: 800px) {
     /*
     header {
         overflow: hidden;
@@ -124,7 +140,34 @@ a {
         display: block;
     }*/
 
+    header {
+        flex-wrap: wrap;
+        height: 10em;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        font-size: .6rem;
+
+        width: 80%;
+        margin-left: 25%;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        text-align: center;
+
+        margin: 2% 40%;
+    }
+
+    .pageDirection {
+        border: none;
+    }
+
+
     .middleImage img {
         margin: 0;
     }
+
+  
 }
