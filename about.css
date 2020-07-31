@@ -172,7 +172,7 @@ a {
     header h1 {
         text-align: center;
 
-        margin: 2% 40%;
+        margin: 2% auto;
         width: 40%;
     }
 
